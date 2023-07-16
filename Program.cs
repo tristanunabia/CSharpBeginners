@@ -2,6 +2,10 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        int age = 17;
+        string name = "Jon-jon";
+
+        Console.WriteLine("Hello, " + name);
+        Console.WriteLine("Your age is: " + age);
     }
-}
+}   
